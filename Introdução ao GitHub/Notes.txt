@@ -1,0 +1,7 @@
+Link para download Git Bash Terminal:
+https://git-scm.com/downloads
+
+Objetos do Git: 
+Blob = Arquivos SHA1
+Trees = (Pastas)
+Commmits = Versionamentos;

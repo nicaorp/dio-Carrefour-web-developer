@@ -1,0 +1,23 @@
+Desafios do desenvolvimento de Software : 
+Objetivos de negócio > Requisitos >
+-Processo de Desenvolvimento;
+-Concepção;
+-Análise e Design;
+-Desenvolvimento; 
+-Testes;
+Implantação;
+
+= Software
+
+O princípio do Pareto também se aplica ao desenvolvimento do Software, Onde 20%, das funcionalidades costumam
+gerar 80% ou mais do benefício esperado.
+
+Tipos de gestão de projetos: 
+-Tradicional(Waterfall): Só permite que o projeto avance quando uma fase está inteiramente completa;
+
+- Agil: Software construído por partes (incrementável) e cada parte executa-se em um ciclo (Iterativo).
+
+Funcões dentro do time Scrum 
+PO - Product Owner
+SM - Scrum Master
+DEVs - Time de desenvolvedores
