@@ -1,0 +1,34 @@
+ECMAScript Error
+
+Erros que ocorrem em tempo de execução.
+(Uncaught ReferenceError: a is not defined at <anonymous>:1:11)
+
+Composto por: 
+Mensagem - 
+Nome -
+Linha - 
+Call Stack -
+
+DOMException: Erro relacionados ao DOM (Document Object Model)
+
+TRY/CATCH AND FINALLY 
+
+THROW 
+
+ERROS PERSONALIZADOS:
+O ERRO ACEITA PARAMETROS, MSG, NOME ARQUIVO E LINE NUMBER
+2 ULTIMOS NÃO SÃO PADRÕES, MAS COSTUMAMOMS APENAS UTILIZAR AS MSGS
+Declara-se: const MeuErro = new Error('Msg Inválida');
+throw MeuErro;
+
+Pode mudar o nome do meu erro:
+const MeuErro = new Error('Msg inválida');
+MeuErro.name = 'InvalidMessage';
+throw MeuErro;
+
+Console nas propriedades do error:
+MeuErro.name = 'InvalidMessage'
+MeuErro.stack = "InvalidMessage: Msg Inválida\n at <anonymous>:3:17"
+MeuErro = InvalidMessage: Msg inválida 
+          at <anonymous>3:17
+

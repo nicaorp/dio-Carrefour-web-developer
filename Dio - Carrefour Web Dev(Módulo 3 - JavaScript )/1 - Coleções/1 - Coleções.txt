@@ -1,0 +1,49 @@
+Map Estrutura:
+
+Características: 
+- Uma coleção de arrays no formato [chave, valor];
+-Pode iterado por um loop for...of
+
+Métodos para adcionar, ler e deletar:
+
+const myMap = new Map()
+
+myMap.set('maca', 'fruit') = Adciona maça na chave 
+e fruta no valor
+
+myMap.get("maca") = retorna o valor da chave maca (fruit)
+
+myMap.delete("maca") = deleta o elemento maça, retorna 
+true se houver o item chave
+
+se tentar deletar uma chave que não existe ele retorna
+undefined
+
+Map x Objeto
+-Maps podem ter chaves de qualquer tipo;
+-Maps possuem a propriedade length;
+-Maps são mais fáceis de iterar;
+-Utilizado quando o valor das chaves é desconhecido;
+-Os valores tem o mesmo tipo;
+
+
+SET - ESTRUTURA
+
+São estruturas que armazenam apenas valores únicos.
+
+Declarar = const mySet = new Set();
+mySet.add(1);
+mySet.add(5);
+mySet.has(1); = retorna true se houver 1;
+mySet.has(3); = retorna false se não houver 3;
+mySet.delete(5) = retorna true se houver 5;
+
+Set x Array
+-Possui valores únicos;
+-Em vez da propriedade length, consulta-se o numero de 
+registros pela propriedade size;
+-Não possui os métodos map, filter, reduce etc.
+
+
+
+

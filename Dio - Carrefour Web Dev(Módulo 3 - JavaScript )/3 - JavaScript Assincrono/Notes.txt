@@ -1,0 +1,40 @@
+Assíncrono: Definição:
+"Que não ocorre ou não se efetiva ao mesmo tempo."
+
+O JV POR PADRÃO RODA DE MANEIRA "SÍNCRONA"
+
+PROMISES = OBJETO DE PROCESSAMENTO ASSÍNCRONO
+
+		  RESOLVED (.then())
+PROMISE (PENDING)                    PENDING (PROMISE)
+                  REJECTED(.catch())  
+
+INICIALMENTE SEU VALOR É DESCONHECIDO. ELA PODE ENTÃO, SER 
+RESOLVIDA OU REJEITADA.
+
+OS 3 ESTADOS DA PROMISES SÃO  
+1) PENDING 
+2) FULFILLED
+3) REJECTED
+
+estrutura de declaração da promise:
+
+const myPromise = new Promise((resolve, reject)) => {
+	window.setTimeout(() => {
+		resolve(console.log('Resolvida!'));
+}, 2000);
+}
+
+-----------------------------------------------
+APIs
+Application Programming Interface
+Uma API é uma forma de intermediar os resultados do back-end
+com o que é apresentado no front-end.
+Você consegue acessá-la por meio de URLs.
+MÉTODO FECTH = 
+fetch(url, options) 
+.then(response => response.json())
+.then(json => console.log(json))
+FETCH retorna uma promise;
+
+
