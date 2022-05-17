@@ -1,3 +1,4 @@
-# Dio - Desafio GitHub
-- [MarkDown Sintax](https://www.markdownguide.org/basic-syntax/)
-- [Typora (MarkDow Editor)](https://typora.io/)
+# Dio - Carrefour Web Dev
+- Módulo 1 - Introduçao à programação (Profa. Juliana Mascarenhas)
+- Módulo 2 - Html e CSS3 (Prof. Lucas Vilaboim)
+- Módulo 3 -  JavaScript (Profa. Stefany Nusch)
