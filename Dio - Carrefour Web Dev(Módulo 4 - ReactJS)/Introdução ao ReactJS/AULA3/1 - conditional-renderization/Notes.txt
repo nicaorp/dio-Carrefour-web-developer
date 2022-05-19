@@ -1,0 +1,11 @@
+Renderização Condicional
+"Em React, você pode criar componentes distintos
+que encapsulam o comportamento que você precisa.
+Então, você pode renderizar apenas alguns dos 
+elementos, dependendo do estado da sua aplicação."
+
+tópicos:
+variaveis de elementos
+if inline com operador lógico &&
+if else inline com operador condicional
+evitando que um componente seja renderizado

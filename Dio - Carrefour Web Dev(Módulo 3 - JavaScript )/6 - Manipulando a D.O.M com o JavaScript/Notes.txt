@@ -1,0 +1,63 @@
+D.O.M = Document Object Model
+o DOM HTML é um padrão de como acessar e modificar
+os elementos HTML de um página.
+
+         DOCUMENT 
+            \/
+     ROOT ELEMENT: <HTML> 
+    / /                   \ \
+    \/                     \/
+ELEMENT:                   ELEMENT:
+<HEAD>                        -------<BODY>-----
+   \/                        \/                 \/
+ELEMENT:      ATTRIBUTE:<-->ELEMENT:         ELEMENT:
+<TITLE>       "HREF"        <A>              <H1>
+   \/                       \/                  \/
+TEXT:                       TEXT:            TEXT:
+"MY TITLE"                  "MY LINK"        "MY HEADER"
+-------------------------------------------------------------
+BOM: BROWSER OBJECT MODEL: TUDO QUE ESTÁ DENTRO DO OBJETO WINDOW
+
+                     WINDOW
+                       \/
+
+DOCUMENT | HISTORY | LOCATION | SCREEN | NAVIGATOR 
+
+CLASSES 
+Element.classList (Acessa o elemento)
+element.classList.add ("classeB") = add mais uma classe ao elemento
+element.classList.remove("classe") = remove classe
+element.classList.toggle("dark-mode") = add a classe dark-mode caso
+ela não exista no elemento, caso exista ela esconde(remove);
+
+Acessar o CSS diretamente do JS 
+element.getElementsByTagName("p").style.color = "blue";
+
+----------------------------------------------------------------
+Eventos - São qualquer tipo de ações que o usuário faça na página
+
+Event Listener 
+Diretamente no JavaScript, cria um evento que vai ser acionado no 
+momento em que o usuário realiar determinada ação.
+ex:
+const botao = document.getElementById("meuBotao");
+botao.addEventListener("click", outraFuuncao());
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

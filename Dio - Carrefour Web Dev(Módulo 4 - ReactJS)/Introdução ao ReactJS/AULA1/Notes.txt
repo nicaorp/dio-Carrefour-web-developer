@@ -1,0 +1,158 @@
+REACTJS - UMA BIBLIOTECA JS PARA CRIAR INTERFACES DE 
+USUARIO -
+CRIADO EM 2011 POR JORDAN WALKE NO FACEBOOK;
+BASEADO NO XHP, UM FRAMEWORK PARA CRIAÇÃO DE HTML NO PHP
+UTILIZADO NO MURAL DE NOTÍCIAS DA FERRAMENTAS
+
+EM 2021, NO INSTAGRAM
+2013 - ANÚNCIO PARA LIBERAÇÃO OPENSOURCE NA JSCONF US
+2015 - REACT NATIVE 
+2015 UWP - UNIVERSAL WINDOWS PLATFORM
+
+REACT É UMA BIBLIOTECA, E NÃO UM FRAMEWORK;
+
+A PRINCIPAL FUNÇÃO É A CRIAÇÃO DA INTERFACE PARA O 
+USUÁRIO.
+
+REACT É UMA LINGUAGEM DECLARATIVA
+
+DECLARATIVA VS IMPERATIVA 
+
+O REACT ESTÁ PREOCUPADO APENAS COM O QUE É EXIBIDO
+NA INTERFACE DO USUÁRIO.
+
+PODE SER UTILIZADO EM QLQR DISPOSITIVO
+
+BACK OU FRONT END.
+
+REACT BASEADO EM COMPONENTES.
+
+config.
+react create app
+react scripts
+task runners e bundlers sizers
+
+JSX = 
+const element = <h1> Hello </h1>;
+Não é nem HTML e nem uma string;
+É uma linguagem que permite executar JS com tags
+HTML
+
+O React não separa as tecnlogias colocando marca-
+ção em arquivos separados, e sim separa conceitos
+e mantém o código pouco acoplado chamando-os de
+componentes.
+Não é obrigatório a utilização do JSX.
+(SINTAX SUGAR PARA REACT.CREATEELEMENT)
+
+O Browser não interpreta o JSX, para isso é necessário
+um transpilador para que a app possa entender
+o códiogo, o mais utilizado é o Babel.
+
+Renderização de elementos;
+react Dom; (Ele não )
+nós raíz.
+React pensa em como a interface deve estar a cada
+momento ao invés de alterá-la com o tempo, o que
+faz ter ganho de performance e evita uma série de
+erros.
+
+Components e props
+
+Estado e ciclo de vida
+Inicialização, montagem, atualização, desmontagem
+
+Nenhum componente pai ou filho devem saber se 
+outro compnente possui estado ou não.
+O estado é apenas local ao componente e caso seja
+necessario enviar algum atributo para outro então
+é feito via props. 
+
+Ecossistema REACT
+React Router;
+Redux;
+Material UI;
+Ant-Design;
+StoryBook;
+Gatsby;
+Jest;
+React i18n Next.
+------------------------------------------
+Aula 2 Integrando o webpack ao desenvolvimento
+com ReactJS
+
+O que é WebPack 
+É um module bundler(um empacotador de módulos
+para aplicações JS)
+Gerar bundler que será utilizado no HTML, em ES5.
+Suporte:
+Fontes, CSS, Images, HTML, JS, Plugins
+
+Principais conceitos no webpack
+*Entry - Utilizando grafo, o webpack precisa de um
+ponto de entrada para buscar todos módulos e 
+dependências.
+*Output - é para determinar quais são os 
+bundlers que o webpack irá emitir.
+*Loaders - É para permitir que o webpack gerencie
+arquivos que não são JavaScript.
+*Plugins - Podem ser utilizados para otimização
+de pacotes, minificação, injeção de scripts e
+muito mais.
+*Mode - utilizados para abordagem de configuração
+zero. É possível configurar módulos como production,
+development ou none.
+
+Production = trás otimizações internas 
+
+Development = é exeutado com três plugins:
+UglifyJsPlugin, ModuleConcatenationPlugin e
+NoEmitOnErrorsPlugin
+
+por padrão é o modo development
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
